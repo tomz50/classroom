@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_back"
+        android:icon="@drawable/back571"
+        android:title="返回"
+        android:orderInCategory="400"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/adduser24"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="新增"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

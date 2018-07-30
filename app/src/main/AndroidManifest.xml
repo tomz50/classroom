@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.classroom.home">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon6"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+            <!-- <activity android:name="com.classroom.attendancerecord.AttendanceRecordMainMain"> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".MainActivity" /> -->
+        <activity android:name="com.classroom.attendancerecord.AttendanceRecordMain" />
+        <activity android:name="com.classroom.attendancerecord.SplashPermissionActivity" />
+        <activity android:name="com.classroom.returnonattendance.ReturnOnAttendanceMainActivity" />
+        <activity android:name="com.classroom.returnonattendance.ReturnOnAttendanceEditActivity" />
+        <activity android:name="com.classroom.bulletins.BulletinsMainActivity" />
+        <activity android:name="com.classroom.bulletins.BulletinsEditActivity" />
+        <activity android:name="com.classroom.attendancequery.AttendanceQueryMainActivity" />
+        <activity android:name="com.classroom.attendancequery.AttendanceQueryActivity" />
+        <activity android:name=".MainMenuActivity" />
+        <activity android:name="com.classroom.bulletinquery.BulletinQueryMainActivity" />
+        <activity android:name="com.classroom.bulletinquery.BulletinQueryActivity" />
+        <activity android:name="com.classroom.communicationbook.CommunicationBookTeacherMainActivity" />
+        <activity android:name="com.classroom.communicationbook.CommunicationBookTeacherEditActivity" />
+        <activity android:name="com.classroom.communicationbook.CommunicationBookTeacherInsertActivity" />
+        <activity android:name="com.classroom.communicationbook.CommunicationBookStudentMainActivity" />
+        <activity android:name="com.classroom.communicationbook.CommunicationBookStudentEditActivity" />
+        <activity android:name="com.classroom.communicationbook.CommunicationBookParentMainActivity" />
+        <activity android:name="com.classroom.communicationbook.CommunicationBookParentEditActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">智慧教室</string>
+    <string name="action_settings">設定</string>
+    <string name="back">返回</string>
+
+    <string name="BulletinQuery">佈告欄查詢</string>
+    <string name="Bulletis">佈告欄維護</string>
+    <string name="AttendanceRecord">出勤掃描</string>
+    <string name="ReturnOnAttendance">請假回報</string>管理
+    <string name="AttendanceQuery">出勤查詢</string>
+    <string name="CommunicationBookTeacher">聯絡簿(導師)</string>
+    <string name="CommunicationBookStudent">聯絡簿(學生)</string>
+    <string name="CommunicationBookParent">聯絡簿(家長)</string>
+    <string name="CommunicationBookQueryt">聯絡簿查詢</string>
+
+    <string name="permissionRequirementExplanation">This app relies on CAMERA permission to function</string>
+    <string name="googleAdsKey">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="barcodeImageCaptured">Barcode Image Captured</string>
+    <string name="turnOffTorch">Turn Off Torch</string>
+    <string name="turnOnTorch">Turn On Torch</string>
+    <string name="tvGooglePlaces">Location: </string>
+    <string name="etGooglePlaces">Places</string>
+    <string name="pauseDecoratedBarcodeView">Pause Barcode View</string>
+    <string name="resumeDecoratedBarcodeView">Resume Barcode View</string>
+    <string name="barcodeScanned">掃描內容: </string>
+    <!--menu-->
+    <string name="v_groupid">群組:</string>
+    <!---->
+    <string name="v_Subject">主旨:</string>
+    <string name="v_Desciption">內容:</string>
+    <string name="v_ImplementationDate">實施日期:</string>
+    <string name="v_EffectiveDate">有效日期:</string>
+
+    <!--kkk-->
+    <string name="scanned">Scanned</string>
+    <string name="v_AttendanceDate">出勤日期:</string>
+    <string name="v_attendanceId">(到班/離班):</string>
+    <string name="v_AttendanceTime">出勤時間:</string>
+    <string name="h_userid">編號</string>
+    <string name="h_name">姓名</string>
+    <string name="h_attendance_in">到班</string>
+    <string name="h_attendance_out">離班</string>
+    <string name="h_trtime">請假回報</string>
+    <string name="v_userid">編號:</string>
+    <string name="v_name">姓名:</string>
+    <string name="v_leave">請假日:</string>
+    <string name="v_reason">原因:</string>
+    <string name="v_stuserid">學生編號:</string>
+    <string name="v_attendance_in">到班:</string>
+    <string name="v_attendance_out">離班:</string>
+    <string name="v_trtime">請假回報:</string>
+    <string name="attendancedate">出勤日:</string>
+    <string name="v_class">班別:</string>
+    <string name="classid">班別代號</string>
+    <string name="btnsel">查詢設定</string>
+    <string name="h_ThTime">導師建立</string>
+    <string name="h_StTime">學生回覆</string>
+    <string name="h_PrTime">家長回覆</string>
+    <string name="v_ThTime">導師建立:</string>
+    <string name="v_StTime">學生回覆:</string>
+    <string name="v_PrTime">家長回覆:</string>
+    <string name="v_HomeWork">作業/測驗:</string>
+    <string name="v_ThContact">導師聯絡欄:</string>
+    <string name="v_PrContact">家長聯絡欄:</string>
+    <string name="b_DatePicker">選日期</string>
+
+</resources>
